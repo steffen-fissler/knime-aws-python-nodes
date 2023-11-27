@@ -1,0 +1,8 @@
+org.knime.aws_rekognition_extension:
+  src: /Users/walikhan/Downloads/KNIME-knime-aws-python-nodes-3d14f07fe4d8/rekognition
+  conda_env_path: /Users/walikhan/miniconda3/envs/my_python_env
+  debug_mode: true
+org.knime.ec2_management:
+  src: /Users/walikhan/Downloads/KNIME-knime-aws-python-nodes-3d14f07fe4d8/ec2
+  conda_env_path: /Users/walikhan/miniconda3/envs/my_python_env
+  debug_mode: true

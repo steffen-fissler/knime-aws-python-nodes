@@ -1,0 +1,13 @@
+name: awsBoto3
+channels:
+  - knime
+  - conda-forge
+dependencies:
+  - packaging
+  - python=3.9
+  - knime-extension
+  - knime-python-base
+  - boto3
+  - json
+  - time
+  prefix:  /Users/wali/opt/anaconda3/envs/awsBoto3

@@ -1,0 +1,12 @@
+name: python_node_dev
+channels:
+  - conda-forge
+  - knime
+dependencies:
+  - python=3.9
+  - knime-extension
+  - packaging
+  - knime-python-base
+  - boto3
+  - pillow
+prefix: /Users/jimfalgout/devtools/miniconda3/envs/python_node_dev

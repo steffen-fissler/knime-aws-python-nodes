@@ -1,0 +1,10 @@
+group_id: org.knime
+name: ec2_management
+author: Wali
+env_yml_path: conda_env.yml
+environment_name: python_node_dev
+extension_module: ec2_management
+description: AWS EC2 Instance Management
+version: 0.1.0
+vendor: KNIME AG, Zurich, Switzerland
+license_file: LICENSE.TXT

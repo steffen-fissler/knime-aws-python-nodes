@@ -1,0 +1,10 @@
+---
+group_id: org.knime
+name: aws_rekognition_extension
+description: "KNIME Amazon Rekognition Integration"
+author: KNIME
+environment_name: python_node_dev
+extension_module: aws_rekognition_extension
+license_file: LICENSE.TXT
+env_yml_path: conda_env.yml
+version: 0.1.0
