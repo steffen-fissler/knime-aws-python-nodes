@@ -169,7 +169,7 @@ class ManageInstances(knext.PythonNode):
     columns = [
         knext.Column(ktype=knext.string(), name="Previous State"),
         knext.Column(ktype=knext.string(), name="Operation Perfomed"),
-        knext.Column(ktype=knext.string(), name="Response")
+        knext.Column(ktype=knext.string(), name="Response Manage Node")
 
     ]
     instanceIds= knext.ColumnParameter(label="Instance ID", description="Choose Column Containing the Instance IDs", port_index=0,include_row_key=False,include_none_column=False)
@@ -179,6 +179,8 @@ class ManageInstances(knext.PythonNode):
     def configure(self, configure_context: knext.ConfigurationContext, input_schema_1) -> List[knext.Schema]: 
          """Configure a single table output port for Operation Response"""
          table_schema = input_schema_1.append(knext.Schema.from_columns(columns=self.columns))
+         #table_schema = input_schema_1
+         #LOGGER.warning(f"Table Schema {table_schema.column}")
          return table_schema
 
 
