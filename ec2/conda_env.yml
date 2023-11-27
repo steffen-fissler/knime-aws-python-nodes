@@ -10,4 +10,3 @@ dependencies:
   - boto3
   - json
   - time
-  prefix:  /Users/wali/opt/anaconda3/envs/awsBoto3
